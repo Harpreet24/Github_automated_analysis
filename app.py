@@ -9,7 +9,7 @@ import openai
 import streamlit as st
 
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 def get_repo_complexity(repo):
     prompt = f"What is the technical complexity of the repository {repo['name']}?"
